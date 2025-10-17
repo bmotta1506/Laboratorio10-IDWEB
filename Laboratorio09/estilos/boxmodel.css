@@ -6,9 +6,8 @@
     justify-content: space-around;
     gap: 15px;
     padding: 10px;
-    
-    
 }
+
 .tarjeta{
     flex: 1;
     border: 2px solid black;

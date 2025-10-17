@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <link rel="stylesheet" href="estilos/dashboard.css">
 </head>
 <body>
     <header>
@@ -18,5 +19,56 @@
             </ul>
         </nav>
     </header>
+    <div class="layout">
+
+    <aside class="sidebar">
+      <h2 class="logo">Mi Panel</h2>
+      <nav class="menu" aria-label="Principal">
+        <a href="#" class="menu-item">Inicio</a>
+        <a href="#" class="menu-item">Usuarios</a>
+        <a href="#" class="menu-item">Reportes</a>
+        <a href="#" class="menu-item">Ajustes</a>
+      </nav>
+     
+    </aside>
+
+    <main class="contenido">
+      <header class="topbar">
+        <h1>Resumen</h1>
+        <div class="acciones">Hola, Admin</div>
+      </header>
+
+      <section class="tarjetas" aria-label="Tarjetas de estadística">
+        <article class="tarjeta">
+          <h3>Usuarios</h3>
+          <p class="valor">1,234</p>
+          <p class="nota">Total registrados</p>
+        </article>
+
+        <article class="tarjeta">
+          <h3>Ventas</h3>
+          <p class="valor">$12,345</p>
+          <p class="nota">Últimos 30 días</p>
+        </article>
+
+        <article class="tarjeta">
+          <h3>Sesiones</h3>
+          <p class="valor">3,210</p>
+          <p class="nota">Activas ahora</p>
+        </article>
+
+        <article class="tarjeta">
+          <h3>Errores</h3>
+          <p class="valor">7</p>
+          <p class="nota">Últimas 24h</p>
+        </article>
+      </section>
+
+      <section class="contenido-secundario">
+        <h2>Actividad reciente</h2>
+        <p>Lista o gráfica aquí...</p>
+      </section>
+    </main>
+  </div>
 </body>
 </html>

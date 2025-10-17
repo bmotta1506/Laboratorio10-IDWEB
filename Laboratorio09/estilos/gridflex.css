@@ -28,10 +28,29 @@ main{
 }
 
 article{
-    flex: 1;
+    flex: 4;
     border: 2px solid ;
     border-radius: 20px;
     height: 600px;
     background-color: white;
     padding: 10px;
 }   
+aside{
+    flex: 1;
+    background-color: white;
+    padding: 16px;
+    border: 2px solid black;
+    border-radius: 20px;
+}
+nav ul{
+    background-color: rgb(150, 147, 147);
+    display: flex;
+    list-style: none;
+    justify-content: space-between;
+    align-items: center;
+   
+}
+nav ul li a{
+    text-decoration: none;
+   
+}
