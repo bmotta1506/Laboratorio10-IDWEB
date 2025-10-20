@@ -1,3 +1,113 @@
-h1{
-    color: blue;
+body{
+    margin: 0;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background-color: rgb(205, 205, 205);
+    display: grid;
+    min-height: 100vh;
+    grid-template-rows: auto 1fr auto;
+
+}
+header nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+    margin: 0 8%;
+}
+header, footer{
+    background-color: black;
+}
+
+header nav ul li a{
+    display: block;
+    color: gray;
+    text-decoration: none;
+    padding: 22px 45px;
+    transition: all 0.3s ease;
+}
+header nav ul li a:hover{
+    background-color: gray;
+    color: black;
+}
+#Bienvenido{
+    text-align: center;
+    padding: 70px;
+    background-color: aliceblue;
+    margin-bottom: 16px;
+    margin-top: 16px;
+    border-radius: 20px;
+    margin: 2%;
+}
+#Opciones ul {
+    
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 2%;
+    padding: 0  ;
+    gap: 15px;
+}
+#Opciones ul li{
+    flex: 1;
+    text-align: center;
+}
+#Opciones ul li a{
+    display: block;
+    text-decoration: none;
+    border-radius: 20px;
+    background-color: aliceblue;
+    padding: 65px ;
+    font-style: italic;
+    color: rgb(164, 141, 141);
+    transition: all 0.3s ease;
+
+}
+#Opciones ul li a:hover{
+    background-color: rgb(17, 17, 17);
+    color: rgb(181, 176, 184);
+}
+
+#Servicios ul{
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 2%;
+    padding: 0 ;
+    gap: 15px;
+
+}
+#Servicios ul li{
+    flex: 1;
+    text-align: center;
+}
+#Servicios ul li a{
+    display: block;
+    text-decoration: none;
+    border-radius: 20px;
+    background-color: aliceblue;
+    padding: 65px ;
+    font-style: italic;
+    color: rgb(164, 141, 141);
+    transition: all 0.3s ease;
+
+}
+#Servicios ul li a:hover{
+    background-color: rgb(17, 17, 17);
+    color: rgb(181, 176, 184);
+}
+
+
+
+
+
+
+footer{
+    margin-top: 15px;
+    display: flex;
+    color: gray;
+    font-style: italic;
+    font-size: 15px;
+    padding: 5px;
+    justify-content: center;
 }
